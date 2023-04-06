@@ -1,5 +1,4 @@
 import "./App.css";
-import estrellita from "./assets/estrellita.png";
 
 import eventos from "./eventos";
 
@@ -16,6 +15,14 @@ function App() {
         justifyContent: "center",
         background: "#141414",
     };
+
+    let workIconStyles2 = {
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        background: "#fff",
+    };
+
     return (
         <>
             <h1>Star Wars Timeline</h1>
@@ -28,18 +35,31 @@ function App() {
                             key={evento.id}
                             date={`${evento.yearInicio}${evento.tipoYearInicio} - ${evento.yearFin}${evento.tipoYearFin}`}
                             dateClassName="date"
-                            icon={<img src={estrellita} alt="Mi imagen" />}
-                            iconStyle={workIconStyles}
+                            icon={<img src={evento.icono} alt="logo evento" />}
+                            iconStyle={
+                                evento.icono ===
+                                    "/src/assets/first-order.svg" ||
+                                evento.icono === "/src/assets/logoImperio.png"
+                                    ? workIconStyles2
+                                    : workIconStyles
+                            }
                             className={evento.tipoEvento}
                         >
                             <h2 className="titulo">{evento.titulo}</h2>
                             <div className="container">
-                                <h5 className="subtitulo">{evento.epoca}</h5>
-                                <h6 className="tipoEvento">
+                                <h5
+                                    className={`subtitulo ${evento.epoca.trim()}`}
+                                >
+                                    {" "}
+                                    {evento.epoca}
+                                </h5>
+                                <h6
+                                    className={`tipoEvento ${evento.tipoEvento}`}
+                                >
                                     {evento.tipoEvento}
                                 </h6>
                             </div>
-                                <p id="descripcion">{evento.descripcion}</p>
+                            <p id="descripcion">{evento.descripcion}</p>
                         </VerticalTimelineElement>
                     );
                 })}

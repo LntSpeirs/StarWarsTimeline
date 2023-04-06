@@ -89,8 +89,8 @@ p {
     align-items: center;
 }
 
-.subtitulo {
-    background-color: royalblue;
+.subtitulo,
+.tipoEvento {
     text-align: center;
     font-weight: 700 !important;
     border-radius: 10px;
@@ -98,4 +98,24 @@ p {
     margin: 0;
     margin-right: 0.5rem;
     width: fit-content;
+}
+
+.Imperio {
+    background-color: #d11212;
+    font-weight: bolder;
+}
+
+.República {
+    background-color: #a261e2;
+    font-weight: bolder;
+}
+
+.Alta {
+    background-color: #df6b06;
+    font-weight: bolder;
+}
+
+.Nueva {
+    background-color: #457e05;
+    font-weight: bolder;
 }
