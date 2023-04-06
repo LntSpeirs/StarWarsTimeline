@@ -1,0 +1,101 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    --line-color: #996710 !important;
+}
+
+body {
+    /* background-color: #3da3d5; */
+    background-image: url("./assets/bg_stars.webp");
+    background-size: auto;
+    background-position: center;
+    font-family: "Titillium Web", sans-serif;
+}
+
+.vertical-timeline-element-content {
+    position: relative;
+    margin-left: 60px;
+    background: #141414 !important;
+    border-radius: 0.25em;
+    padding: 1em;
+    box-shadow: 0 3px 0 #6b5227 !important;
+}
+
+.date {
+    color: #996710;
+    font-weight: 900 !important;
+    font-size: 1.5rem !important;
+    /*  display: flex !important;
+    align-items: center !important; */
+}
+
+h1,
+.leyenda {
+    color: #d0d0d0;
+}
+
+.vertical-timeline-element-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px #6b5227, inset 0 2px 0 rgba(0, 0, 0, 0.08),
+        0 3px 0 4px rgba(0, 0, 0, 0.05) !important;
+}
+
+@media (min-width: 1170px) {
+    .date {
+        display: flex !important; /* Crea un contenedor flexible que alinea sus elementos internos */
+        justify-content: center !important; /* Centra los elementos horizontalmente */
+        align-items: center !important; /* Centra los elementos verticalmente */
+        flex-wrap: wrap !important; /* Ajusta el ancho de las columnas al ancho del contenedor */
+        position: absolute; /* Para posicionar el span de forma absoluta dentro del contenedor */
+        left: 50%; /* Mueve el elemento a la mitad del ancho del contenedor */
+    }
+}
+
+.titulo {
+    font-family: roboto, sans-serif;
+    color: #d0d0d0 !important;
+    font-weight: 700;
+    margin: 6px 0;
+}
+
+h5,
+h6 {
+    font-family: Titillium Web !important;
+    color: #d0d0d0;
+    line-height: 1.5 !important;
+    font-weight: 100 !important;
+    letter-spacing: -0.2px !important;
+}
+
+p {
+    font-family: Titillium Web !important;
+    color: #d0d0d0;
+    font-size: 21px !important;
+    line-height: 1.5 !important;
+    font-weight: 100 !important;
+    letter-spacing: -0.2px !important;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtitulo {
+    background-color: royalblue;
+    text-align: center;
+    font-weight: 700 !important;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 0;
+    margin-right: 0.5rem;
+    width: fit-content;
+}
