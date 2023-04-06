@@ -37,9 +37,9 @@ function App() {
                             dateClassName="date"
                             icon={<img src={evento.icono} alt="logo evento" />}
                             iconStyle={
-                                evento.icono ===
-                                    "/src/assets/first-order.svg" ||
-                                evento.icono === "/src/assets/logoImperio.png"
+                                evento.epoca ===
+                                    "Imperio" ||
+                                    evento.epoca === "Primera Orden"
                                     ? workIconStyles2
                                     : workIconStyles
                             }

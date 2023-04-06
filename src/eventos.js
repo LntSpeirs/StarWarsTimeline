@@ -290,7 +290,7 @@ const eventos = [
         tipoYearInicio: "DBY",
         yearFin: 35,
         tipoYearFin: "DBY",
-        epoca: "Nueva República",
+        epoca: "Primera Orden",
         tipoEvento: "Serie",
     },
     {
@@ -302,7 +302,7 @@ const eventos = [
         tipoYearInicio: "DBY",
         yearFin: 34,
         tipoYearFin: "DBY",
-        epoca: "Nueva República",
+        epoca: "Primera Orden",
         tipoEvento: "Pelicula",
     },
     {
@@ -314,7 +314,7 @@ const eventos = [
         tipoYearInicio: "DBY",
         yearFin: 34,
         tipoYearFin: "DBY",
-        epoca: "Nueva República",
+        epoca: "Primera Orden",
         tipoEvento: "Pelicula",
     },
     {
@@ -326,7 +326,7 @@ const eventos = [
         tipoYearInicio: "DBY",
         yearFin: 35,
         tipoYearFin: "DBY",
-        epoca: "Nueva República",
+        epoca: "Primera Orden",
         tipoEvento: "Pelicula",
     },
 ];
