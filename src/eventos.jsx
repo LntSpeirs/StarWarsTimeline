@@ -14,7 +14,7 @@ import DawnJedi from "./assets/dawn of the jedi.png";
 import OldRepublic from "./assets/OldRepublic.png";
 import NuevaOrdenJedi from "./assets/NuevaOrdenJedi.png";
 import momin from "./assets/Momin.webp";
-import mustafar from "./assets/mustafar.webp";
+import mustafar from "./assets/Mustafar.webp";
 import malachor from "./assets/malachor-sith-temple.jpeg";
 import tarre from "./assets/Tarre_Vizsla.webp";
 import amaxine from "./assets/Amaxine.webp";
