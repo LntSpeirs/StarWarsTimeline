@@ -81,6 +81,7 @@ p {
     line-height: 1.5 !important;
     font-weight: 100 !important;
     letter-spacing: -0.2px !important;
+    text-align: left;
 }
 
 .container {
