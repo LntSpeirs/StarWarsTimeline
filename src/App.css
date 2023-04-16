@@ -112,6 +112,10 @@ p {
 }
 
 .República {
+    background-color: #1f10a1;
+    font-weight: bolder;
+}
+.Antigua {
     background-color: #a261e2;
     font-weight: bolder;
 }
