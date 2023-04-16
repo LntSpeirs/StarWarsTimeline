@@ -4,7 +4,7 @@ import HighRepublic from "./assets/HighRepublic.webp";
 import HighRepublic2 from "./assets/highrepublic2.png";
 import JediOrder from "./assets/Jedi_Order_Symbol.webp";
 import caidaJedi from "./assets/caidaJedi.png";
-import imperio from "./assets/imperio.png";
+import imperio from "./assets/Imperio.png";
 import rebelion from "./assets/rebelion.png";
 import NuevaRepublica from "./assets/NuevaRepublica.svg";
 import NuevaRepublica2 from "./assets/NuevaRepublica.png";
