@@ -14,13 +14,19 @@ body {
     font-family: "Titillium Web", sans-serif;
 }
 
+.leyenda {
+    background: #141414 !important;
+    font-weight: 700;
+}
+
 .vertical-timeline-element-content {
     position: relative;
-    margin-left: 60px;
+    margin-left: 30px;
     background: #141414 !important;
     border-radius: 0.25em;
-    padding: 1em;
-    box-shadow: 0 3px 0 #6b5227 !important;
+    padding: 5em;
+    box-shadow: 0 6px 0 #6b5227 !important;
+    min-width: 28.9rem;
 }
 
 .date {
@@ -47,6 +53,10 @@ h1,
         0 3px 0 4px rgba(0, 0, 0, 0.05) !important;
 }
 
+img {
+    width: 25rem;
+}
+
 @media (min-width: 1170px) {
     .date {
         display: flex !important; /* Crea un contenedor flexible que alinea sus elementos internos */
@@ -55,6 +65,21 @@ h1,
         flex-wrap: wrap !important; /* Ajusta el ancho de las columnas al ancho del contenedor */
         position: absolute; /* Para posicionar el span de forma absoluta dentro del contenedor */
         left: 50%; /* Mueve el elemento a la mitad del ancho del contenedor */
+    }
+
+    .vertical-timeline-element-content {
+        position: relative;
+        margin-left: 30px !important;
+        background: #141414 !important;
+        border-radius: 0.25em;
+        padding: 1em;
+        box-shadow: 0 6px 0 #6b5227 !important;
+        width: 30rem !important;
+    }
+
+    #descripcion {
+        width: 25rem;
+        text-align: justify !important;
     }
 }
 

@@ -557,7 +557,7 @@ const eventos = [
                 </p>
                 <br></br>
                 <div align="center">
-                    <img src={Starlight} width="450px"></img>
+                    <img src={Starlight}></img>
                 </div>
             </>
         ),
@@ -1923,15 +1923,156 @@ const eventos = [
         tipoEvento: "Serie",
     },
     {
+        titulo: "Asedio de Christophsis",
+        icono: caidaJedi,
+        id: 80,
+        descripcion: (
+            <>
+                <p>
+                    Buscando hacerse con el control de los recursos estratégicos
+                    del planeta, el Ejército Droide Separatista liderado por el
+                    General Whorm Loathsom invadió y capturó a Christophsis.
+                </p>
+                <p>
+                    En respuesta a una súplica urgente de los habitantes del
+                    mundo, la República Galáctica y el Alto Consejo Jedi
+                    enviaron al Alto General Jedi Obi-Wan Kenobi y al General
+                    Jedi Anakin Skywalker con el Almirante Wullf Yularen, y un
+                    contingente de soldados clon del Gran Ejército de la
+                    República para liberar el planeta.
+                </p>
+                <p>
+                    Después de lograr romper el bloqueo masivo del almirante
+                    confederado Trench alrededor del planeta, así como entregar
+                    los suministros al campamento de refugiados del senador Bail
+                    Organa en la superficie a través de una nave furtiva
+                    experimental
+                </p>
+                <p>Anakin toma a Ahsoka como padawan.</p>
+            </>
+        ),
+        yearInicio: 22,
+        tipoYearInicio: "ABY",
+        yearFin: 22,
+        tipoYearFin: "ABY",
+        epoca: "Guerras Clon",
+        tipoEvento: "Serie",
+    },
+    {
+        titulo: "Hutt secuestrado",
+        icono: caidaJedi,
+        id: 81,
+        descripcion: (
+            <>
+                <p>
+                    Rotta , hijo de Jabba the Hutt, es secuestrado por la
+                    asesina de Dooku, Asajj Ventress. Luego, los Separatistas
+                    culpan a la República
+                </p>
+                <p>
+                    Anakin Skywalker y Ahsoka Tano devuelven a Rotta a Jabba the
+                    Hutt en Tatooine.
+                </p>
+            </>
+        ),
+        yearInicio: 22,
+        tipoYearInicio: "ABY",
+        yearFin: 22,
+        tipoYearFin: "ABY",
+        epoca: "Guerras Clon",
+        tipoEvento: "Serie",
+    },
+    {
+        titulo: "Campaña del Malevolence",
+        icono: caidaJedi,
+        id: 82,
+        descripcion: (
+            <>
+                <p>
+                    Fue una campaña de varios meses lanzada por el Conde Dooku y
+                    el General Grievous durante las Guerras Clon utilizando el
+                    buque insignia de Grievous, el crucero pesado clase
+                    Subjugador Malevolencia. La nave estelar presentaba dos
+                    mega-cañones de iones, que podrían usarse para inutilizar
+                    flotas enteras de la República Galáctica .
+                </p>
+                <p>
+                    Anakin y Obi Wan abordan la nave y la programan para
+                    estrellarse contra la luna de Antar.
+                </p>
+            </>
+        ),
+        yearInicio: 22,
+        tipoYearInicio: "ABY",
+        yearFin: 22,
+        tipoYearFin: "ABY",
+        epoca: "Guerras Clon",
+        tipoEvento: "Serie",
+    },
+    {
         titulo: "Pérdida de Geonosis",
         icono: caidaJedi,
-        id: 78,
+        id: 83,
         descripcion: (
             <>
                 <p>
                     Geonosis es retomado por las fuerzas separatistas un año
                     despues de perderlo y Poggle el Menor reinicia rápidamente
                     sus fundiciones de droides.
+                </p>
+            </>
+        ),
+        yearInicio: 21,
+        tipoYearInicio: "ABY",
+        yearFin: 21,
+        tipoYearFin: "ABY",
+        epoca: "Guerras Clon",
+        tipoEvento: "Serie",
+    },
+    {
+        titulo: "King Zillo",
+        icono: caidaJedi,
+        id: 84,
+        descripcion: (
+            <>
+                <p>
+                    Una Bestia Zillo, capturada en Malastare, es enviada a
+                    Coruscant para su estudio, pero escapa y arrasa la ciudad
+                    hasta que consiguen neutralizarle.
+                </p>
+                <p>
+                    Al día siguiente, el cadáver de la bestia Zillo fue
+                    transportado a unas instalaciones para que se pudieran
+                    realizar más investigaciones sobre el cuerpo y su
+                    resistencia al fuego laser.
+                </p>
+                <p>
+                    Mientras observaba el transporte del cuerpo, la Dra. Boll,
+                    para su sorpresa, recibió la orden de Palpatine de clonar a
+                    la bestia.
+                </p>
+            </>
+        ),
+        yearInicio: 21,
+        tipoYearInicio: "ABY",
+        yearFin: 21,
+        tipoYearFin: "ABY",
+        epoca: "Guerras Clon",
+        tipoEvento: "Serie",
+    },
+    {
+        titulo: "Segunda batalla de Geonosis",
+        icono: caidaJedi,
+        id: 85,
+        descripcion: (
+            <>
+                <p>
+                    Las fundiciones de droides de Poggle el Menor en Geonosis
+                    empiezan a producir nuevas armas para los Separatistas
+                </p>
+                <p>
+                    La República inicia la Segunda Batalla de Geonosis para
+                    destruir las fábricas.
                 </p>
             </>
         ),

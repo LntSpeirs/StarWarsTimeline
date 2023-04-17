@@ -26,8 +26,16 @@ function App() {
     return (
         <>
             <h1>Star Wars Timeline</h1>
-            <h5 className="leyenda">ABY = Antes de la batalla de Yavin</h5>
-            <h5 className="leyenda">DBY = Después de la batalla de Yavin</h5>
+            <div className="leyenda">
+                <h5 className="leyenda">ABY = Antes de la batalla de Yavin</h5>
+                <h5 className="leyenda">
+                    DBY = Después de la batalla de Yavin
+                </h5>
+                Si tambien te interesa el orden cronologico de los cómics canon:{" "}
+                <a href="https://www.whakoom.com/ltspeirs/lists/orden_cronologico_de_los_comics_star_wars_canon_36556">
+                    Listado de cómics canon
+                </a>
+            </div>
             <VerticalTimeline>
                 {eventos.map((evento) => {
                     return (
@@ -37,9 +45,8 @@ function App() {
                             dateClassName="date"
                             icon={<img src={evento.icono} alt="logo evento" />}
                             iconStyle={
-                                evento.epoca ===
-                                    "Imperio" ||
-                                    evento.epoca === "Primera Orden"
+                                evento.epoca === "Imperio" ||
+                                evento.epoca === "Primera Orden"
                                     ? workIconStyles2
                                     : workIconStyles
                             }
